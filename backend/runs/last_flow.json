@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "mlNode",
+      "data": {
+        "label": "Start",
+        "props": {
+          "parameter1": "eeeeeeeee",
+          "parameter2": "ffffffffffffffff"
+        }
+      },
+      "position": {
+        "x": -114,
+        "y": -255.5
+      },
+      "width": 160,
+      "height": 47,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -114,
+        "y": -255.5
+      },
+      "dragging": false
+    },
+    {
+      "id": "2",
+      "type": "mlNode",
+      "position": {
+        "x": -40.5,
+        "y": -162.25
+      },
+      "data": {
+        "label": "Split",
+        "props": {
+          "parameter1": "2222222222",
+          "parameter2": "3333333333"
+        }
+      },
+      "width": 160,
+      "height": 47,
+      "positionAbsolute": {
+        "x": -40.5,
+        "y": -162.25
+      },
+      "selected": true,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "sourceHandle": null,
+      "target": "2",
+      "targetHandle": null,
+      "id": "reactflow__edge-1-2"
+    }
+  ],
+  "viewport": {
+    "x": 622.5,
+    "y": 686.25,
+    "zoom": 2
+  }
+}
